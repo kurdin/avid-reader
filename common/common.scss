@@ -755,6 +755,11 @@ p>code, li>code, pre>code {
     background-color: #fff;
 }
 
+.header-search-enabled.align-right .contents .search-header {
+    margin: 0;
+    margin-top: 14px;  
+}
+
 .search-menu.search-header {
   .search-icon {
    .svg-icon {
@@ -1000,6 +1005,10 @@ div.poll {
     border: none;
 }
 
+.topic-body .topic-meta-data {
+    margin-top: 16px;
+}
+
 .topic-list thead {
     text-transform: uppercase;
     font-weight: bold;
@@ -1104,6 +1113,9 @@ tr {
 }
 
 
+.btn-small {
+    height: 32px;
+}
 
 .topic-list-item.visited span.badge-category, .latest-topic-list-item.visited span.badge-category, .category-topic-link.visited span.badge-category {
     font-size: 1em;
