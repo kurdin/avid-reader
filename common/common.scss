@@ -482,6 +482,17 @@ p>code, li>code, pre>code {
 .menu-panel {
     background-color: #fff;
 }
+
+.search-menu.search-header {
+ .search-input {
+   margin: 0;
+   height: 30px;
+  }
+  .results {
+    padding-top: 0.5em;    
+  }
+}
+
 .search-menu input[type="text"] {
     background-color: #fff;
 }
