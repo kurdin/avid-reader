@@ -485,6 +485,15 @@ p>code, li>code, pre>code {
 
 .search-menu.search-header {
  .search-input {
+   .svg-icon {
+     vertical-align: 0;
+     width: 2em;
+   }
+   .show-advanced-search {
+     .svg-icon {
+       vertical-align: 0;
+     }
+   }
    margin: 0;
    height: 30px;
   }
