@@ -1162,10 +1162,11 @@ tr {
   background-color: var(--highlight-medium);
 }
 
-.btn: (.search-icon), .btn-primary {
+.btn:not(.search-icon),
+.btn-primary {
   border-radius: 4px;
   font-family: 'Ubuntu Condensed';
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }
 
