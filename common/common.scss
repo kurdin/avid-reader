@@ -1162,9 +1162,11 @@ tr {
   background-color: var(--highlight-medium);
 }
 
-.btn {
+.btn,
+.btn-primary {
   border-radius: 4px;
   font-family: 'Ubuntu Condensed';
+  font-size: 15px;
   font-weight: 400;
 }
 
