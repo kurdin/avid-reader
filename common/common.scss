@@ -484,12 +484,14 @@ p>code, li>code, pre>code {
 }
 
 .search-menu.search-header {
-  .search-icon, .search-input {
+  .search-icon {
    .svg-icon {
      vertical-align: 0;
      width: 2em;
    }
-   .show-advanced-search {
+  }
+  .search-input {
+  .show-advanced-search {
      .svg-icon {
        vertical-align: 0;
      }
