@@ -326,7 +326,6 @@ h4 {
     font-size: var(--font-up-1-rem);
 }
 p {
-    font-size: 22px;
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;
     line-height: 1.4;
     margin: 20px 0;
@@ -417,11 +416,9 @@ blockquote {
     margin: 0 0 30px;
 }
 .cooked ul, .d-editor-preview ul {
-    font-size: 22px;
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;
 }
 ol {
-    font-size: 22px;
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,sans-serif;
 }
 kbd {
@@ -682,11 +679,11 @@ div.poll {
     padding: 30px 10px;
 }
 .title, .raw-link, .raw-topic-link {
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .topic-list-item.visited a.title:not(.badge-notification) {
-    font-size: 22px;
+    font-size: 15px;
 }
 
 
