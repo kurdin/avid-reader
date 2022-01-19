@@ -1,7 +1,7 @@
 :root {
   --font-family-main: Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica,
     Arial, sans-serif;
-  --font-family-main2: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+  --heading-font-family: 'Ubuntu Condensed';
 }
 
 html {
@@ -594,7 +594,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--font-family-main);
+  font-family: var(--heading-font-family);
 }
 h1 {
   font-size: 26px;
