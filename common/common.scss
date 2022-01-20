@@ -1200,7 +1200,7 @@ tr {
   background-color: #fff;
 }
 .category-desc p {
-  font-size: 19px;
+  font-size: 14px;
   line-height: 1.2;
 }
 .popup-menu .btn:focus,
@@ -1246,6 +1246,12 @@ hr {
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
   background-color: var(--highlight-medium);
+}
+
+.select-kit-row {
+  .category-status {
+    
+  }
 }
 
 img.avatar {
