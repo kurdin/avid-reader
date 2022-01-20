@@ -665,9 +665,26 @@ a.fancy-title {
   padding: 30px 11px 20px 11px;
 }
 #topic-title .title-wrapper {
-  padding: 60px 0 20px 0;
-  width: 90%;
+  padding: 16px 0 0;
 }
+
+.title-voting {
+  .vote-count-wrapper {
+    margin-top: 43px;
+    border-radius: 4px;
+  }
+  .vote-button {
+    padding: 6px 8px;  
+  }
+  
+  padding-top: 0;
+  padding-right: 12px;
+  width: 60px;
+  max-width: 10%;
+  box-sizing: border-box;
+  float: left;
+}
+
 .topic-category {
   padding: 10px 0 0 0;
 }
