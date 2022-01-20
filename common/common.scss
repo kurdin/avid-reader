@@ -789,11 +789,9 @@ pre > code.hljs {
 .b-header {
   .contents {
     .title {
-      a {
-        &:hover {
-          .b-header .title:after {
-            color: #ffb200;
-          }
+      &:hover {
+        &:after {
+          color: #ffb200;
         }
       }
       display: flex;
