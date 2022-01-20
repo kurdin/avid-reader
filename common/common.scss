@@ -1354,3 +1354,24 @@ img.avatar {
   padding: 12px 12px 4px;
   margin: 0;
 }
+
+html.whos-online-flair #user-card.user-online .user-card-avatar {
+  position: relative;
+  &:before {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+html.whos-online-flair body.user-page-online .collapsed-info .primary {
+  &:before {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    z-index: 1;
+  }
+}
