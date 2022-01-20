@@ -1356,7 +1356,6 @@ img.avatar {
 }
 
 html.whos-online-flair .topic-avatar.user-online {
-  position: relative;
   &:before {
     top: 15px;
     left: -4px;
@@ -1368,7 +1367,6 @@ html.whos-online-flair .topic-avatar.user-online {
 
 html.whos-online-flair body.user-page-online .collapsed-info .primary,
 html.whos-online-flair .latest-topic-list .latest-topic-list-item.last-poster-online .topic-poster {
-  position: relative;
   &:before {
     top: -5px;
     left: -5px;
