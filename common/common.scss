@@ -1386,3 +1386,11 @@ html.whos-online-flair #user-card.user-online .user-card-avatar {
     position: absolute;
   }
 }
+
+#whos-online {
+  display: flex;
+  align-items: center;
+  > * {
+    margin-left: 6px;
+  }
+}
