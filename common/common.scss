@@ -789,11 +789,18 @@ pre > code.hljs {
 .b-header {
   .contents {
     .title {
+      a {
+        &:hover {
+          .b-header .title:after {
+            color: #ffb200;
+          }
+        }
+      }
       display: flex;
       align-items: center;
       &:after {
         content: 'SiteRemix';
-        color: #ffb200;
+        color: #e1e1e1;
         font-family: 'Ubuntu Condensed';
         margin-left: 8px;
         font-size: 20px;
