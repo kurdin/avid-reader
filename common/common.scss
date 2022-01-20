@@ -830,13 +830,22 @@ pre > code.hljs {
   }
 }
 
-details summary {
-  font-family: 'Ubuntu Condensed', serif;
-  font-size: 110%;
-  &:before {
-    content: "\25BA";
-    margin-right: 0.15em;
-    font-size: 90%;
+details {
+  > p {
+    background: #f0f0f0;
+    padding: 12px;
+    margin-left: 6px;
+    margin-top: 12px;
+  }
+  summary {
+    font-family: 'Ubuntu Condensed', serif;
+    font-size: 110%;
+    &:before {
+      color: #5a5a5a;
+      content: "\25BA";
+      margin-right: 0.15em;
+      font-size: 90%;
+    }
   }
 }
 
