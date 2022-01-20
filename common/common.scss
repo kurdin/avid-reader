@@ -791,12 +791,14 @@ pre > code.hljs {
     .title {
       display: flex;
       align-items: center;
-      &:after {
-        content: 'SiteRemix';
-        color: #d79600;
-        font-family: 'Ubuntu Condensed';
-        margin-left: 8px;
-        font-size: 17px;
+      .logo-big {
+        &:after {
+          content: 'SiteRemix';
+          color: #d79600;
+          font-family: 'Ubuntu Condensed';
+          margin-left: 8px;
+          font-size: 17px;
+        }
       }
     }
     display: flex;
