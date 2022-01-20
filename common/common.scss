@@ -872,12 +872,14 @@ pre > code.hljs {
 
 .search-menu.search-header {
   .search-icon {
+    border-color: var(--header_primary-low-mid);
     .svg-icon {
       vertical-align: 0;
       width: 2em;
     }
   }
   .search-input {
+    border-color: var(--header_primary-low-mid);
     .show-advanced-search,
     .clear-search {
       .svg-icon {
