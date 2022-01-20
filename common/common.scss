@@ -1355,6 +1355,17 @@ img.avatar {
   margin: 0;
 }
 
+html.whos-online-flair .topic-avatar .user-online {
+  position: relative;
+  &:before {
+    top: 15px;
+    left: -4px;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+  }
+}
+
 html.whos-online-flair #user-card.user-online .user-card-avatar {
   position: relative;
   &:before {
