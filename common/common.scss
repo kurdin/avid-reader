@@ -1204,6 +1204,16 @@ tr {
   line-height: 1.2;
 }
 
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-b {
+  width: 11px;
+  height: 11px;
+  margin-right: 3px;
+}
+
+.bottom-row {
+  font-size: 15px;
+}
+
 .categories-list .category .category-description {
   font-size: 15px;
   line-height: 1.2;
