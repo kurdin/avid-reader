@@ -729,7 +729,7 @@ ol {
   font-family: var(--font-family-main);
 }
 kbd {
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Source Code Pro', monospace;
 }
 p > code,
@@ -738,8 +738,15 @@ pre > code {
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
   font-style: normal;
-  line-height: 1.7;
+  line-height: 1.6;
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
 }
+
+pre > code.hljs {
+  background-color: #f4f4f4;
+  border: 1px solid #d2d2d2;}
+
 .topic-list-item:hover {
   background: var(--primary-low);
   transition: all 0.25s;
@@ -1065,6 +1072,11 @@ div.poll {
   font-size: 13px;
   letter-spacing: 1px;
 }
+
+.post-avatar, .topic-avatar, .user-card-avatar {
+  position: initial;
+}
+
 .topic-body,
 .topic-avatar {
   border-top: 1px solid;
@@ -1072,7 +1084,7 @@ div.poll {
   padding-top: 20px;
 }
 .timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
-  // display: none;
+  display: none;
 }
 .widget-component-connector {
   // display: none;
