@@ -791,6 +791,13 @@ pre > code.hljs {
     .title {
       display: flex;
       align-items: center;
+      &:after {
+        content: 'SiteRemix';
+        color: #d79600;
+        font-family: 'Ubuntu Condensed';
+        margin-left: 8px;
+        font-size: 18px;
+      }
     }
     display: flex;
     align-content: center;
@@ -805,15 +812,7 @@ pre > code.hljs {
     margin-left: auto;
   }
   #brand-logo {
-    &:after {
-      content: 'SiteRemix';
-      color: #d79600;
-      font-family: 'Ubuntu Condensed';
-      margin-left: 8px;
-      font-size: 17px;
-    }
-
-    max-height: 26px;
+    // max-height: 26px;
   }
   background: #484848;
 }
