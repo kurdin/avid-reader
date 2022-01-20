@@ -597,16 +597,17 @@ h2,
 h3,
 h4,
 h5 {
+  letter-spacing: 0.05rem;
   font-family: var(--heading-font-family);
 }
 
-h1 {
-  font-size: 26px;
-}
-.cooked h1,
-.d-editor-preview h1 {
-  font-size: 26px;
-}
+// h1 {
+//   font-size: 26px;
+// }
+// .cooked h1,
+// .d-editor-preview h1 {
+//   font-size: 26px;
+// }
 
 h2 {
   font-size: var(--font-up-3-rem);
@@ -649,7 +650,7 @@ span.text {
   font-size: 15px;
 }
 a.fancy-title {
-  font-size: 28px;
+  // font-size: 28px;
 }
 .names span a {
   font-size: 16px;
@@ -841,7 +842,7 @@ details {
     font-family: 'Ubuntu Condensed', serif;
     font-size: 110%;
     &:before {
-      color: #5a5a5a;
+      color: #707070;
       content: "\25BA";
       margin-right: 0.15em;
       font-size: 90%;
