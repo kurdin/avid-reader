@@ -1366,7 +1366,7 @@ html.whos-online-flair .topic-avatar .user-online {
   }
 }
 
-html.whos-online-flair #user-card.user-online .user-card-avatar {
+html.whos-online-flair .topic-avatar.user-online {
   position: relative;
   &:before {
     width: 12px;
