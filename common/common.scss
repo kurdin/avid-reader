@@ -794,7 +794,6 @@ pre > code.hljs {
       &:after {
         content: 'SiteRemix';
         color: #d79600;
-        opacity: 0.9;
         font-family: 'Ubuntu Condensed';
         margin-left: 8px;
         font-size: 20px;
@@ -808,14 +807,12 @@ pre > code.hljs {
     .widget-link {
       opacity: 0.9;
       &:hover {
-        opacity: 1;
         color: #c59119;
       }
     }
     margin-left: auto;
   }
   #brand-logo {
-    opacity: 0.9;
     max-height: 29px;
   }
   background: #484848;
