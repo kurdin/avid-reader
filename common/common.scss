@@ -882,7 +882,7 @@ pre > code {
 // Buttons
 #topic-footer-buttons .pinned-button,
 #topic-footer-buttons .topic-notifications-button {
-  display: none;
+  // display: none;
 }
 .top-title-buttons {
   font-size: var(--font-up-1-rem);
@@ -978,7 +978,7 @@ pre > code {
   color: var(--primary-med-or-secondary-high);
 }
 .featured-topics .svg-icon {
-  display: none;
+  // display: none;
 }
 
 // Do not Disturb
@@ -1072,10 +1072,10 @@ div.poll {
   padding-top: 20px;
 }
 .timeline-container .topic-timeline .timeline-footer-controls .reply-to-post {
-  display: none;
+  // display: none;
 }
 .widget-component-connector {
-  display: none;
+  // display: none;
 }
 .suggested-topics-message {
   margin-bottom: 100px;
@@ -1087,7 +1087,7 @@ div.poll {
   border-left-color: var(--tertiary);
 }
 .topic-list .posters {
-  display: none;
+  // display: none;
 }
 .nav-pills > li a.active {
   background-color: var(--tertiary);
@@ -1105,7 +1105,7 @@ tbody {
   font-size: 17px;
 }
 .post-info.edits .widget-button {
-  display: none;
+  // display: none;
 }
 .topic-list .age {
   width: 100px;
