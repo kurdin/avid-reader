@@ -597,8 +597,21 @@ h2,
 h3,
 h4,
 h5 {
-  letter-spacing: 0.05rem;
+  // letter-spacing: 0.05rem;
+  letter-spacing: 0.3px;
   font-family: var(--heading-font-family);
+}
+
+.mobile-view {
+  // Text styling
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    letter-spacing: unset;
+    font-family: var(--heading-font-family);
+  }
 }
 
 // h1 {
