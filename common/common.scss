@@ -830,6 +830,16 @@ pre > code.hljs {
   }
 }
 
+details summary {
+  font-family: 'Ubuntu Condensed', serif;
+  font-size: 110%;
+  &:before {
+    content: "\25BA";
+    margin-right: 0.15em;
+    font-size: 90%;
+  }
+}
+
 .search-menu input[type='text'] {
   background-color: #fff;
 }
