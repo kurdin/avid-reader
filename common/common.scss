@@ -1366,13 +1366,16 @@ html.whos-online-flair .topic-avatar.user-online {
   }
 }
 
-html.whos-online-flair body.user-page-online .collapsed-info .primary {
+html.whos-online-flair body.user-page-online .collapsed-info .primary,
+html.whos-online-flair .latest-topic-list .latest-topic-list-item.last-poster-online .topic-poster {
+  position: relative;
   &:before {
     top: -5px;
     left: -5px;
     height: 7px;
     width: 7px;
     z-index: 1;
+    position: absolute;
   }
 }
 
