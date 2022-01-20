@@ -797,8 +797,9 @@ pre > code.hljs {
       display: flex;
       align-items: center;
       &:after {
+        transition: color 0.2s;
         content: 'SiteRemix';
-        color: #e1e1e1;
+        color: #e2e2e2;
         font-family: 'Ubuntu Condensed';
         margin-left: 8px;
         font-size: 20px;
