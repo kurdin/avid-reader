@@ -1040,11 +1040,9 @@ div.poll {
   padding-top: 1em;
 }
 .topic-map section {
-  //background: var(--secondary);
-  border-top: 1px solid;
-  border-color: var(--quaternary);
-  border: 1px solid var(--quaternary);
-  padding: 1em;
+  background: var(--secondary);
+  border: 0;
+  padding: 8px;
 }
 .topic-map section:nth-of-type(2) {
   border: none;
