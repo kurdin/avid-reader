@@ -861,8 +861,14 @@ details {
   color: var(--tertiary);
 }
 
+.docs-browse .docs-topic .topic-content h1 {
+  line-height: 2;
+  color: var(--tertiary);
+}
+
 .docs-browse .docs-topic .docs-nav-link.return {
   font-size: var(--font-0);
+  color: var(--primary-high);
 }
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
