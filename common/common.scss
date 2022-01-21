@@ -856,7 +856,8 @@ details {
   border-bottom: 1px solid #c2c2c2;
 }
 
-.widget-link .topic-link span {
+.extra-info-wrapper .topic-link,
+.widget-link .topic-link {
   color: var(--tertiary);
 }
 
