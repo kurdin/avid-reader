@@ -861,6 +861,10 @@ details {
   color: var(--tertiary);
 }
 
+.docs-browse .docs-topic .docs-nav-link.return {
+  font-size: var(--font-0);
+}
+
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification) {
