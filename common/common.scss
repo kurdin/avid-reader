@@ -1064,6 +1064,7 @@ details {
 .topic-list-item.visited a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification) {
+  color: var(--tertiary);
   font-size: 1em;
 }
 
@@ -1135,15 +1136,6 @@ div.poll {
 .topic-list th,
 .topic-list td {
   padding: 30px 10px;
-}
-.title,
-.raw-link,
-.raw-topic-link {
-  font-size: 15px;
-}
-
-.topic-list-item.visited a.title:not(.badge-notification) {
-  font-size: 15px;
 }
 
 .small-action {
@@ -1420,4 +1412,12 @@ html.whos-online-flair #user-card.user-online .user-card-avatar {
 
 #site-logo {
   opacity: 0.9;
+}
+
+.topic-list .link-bottom-line {
+  margin-top: 4px;
+}
+
+#topic-title h1 a {
+  color: var(--tertiary);
 }
