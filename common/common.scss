@@ -3,6 +3,9 @@
     Helvetica, Arial, sans-serif;
   --heading-font-family: 'Ubuntu Condensed';
   --title-link-color: #c76026;
+  --font-up-3-rem: 1.3157rem;
+  --font-up-2-rem: 1.2195rem;
+  --font-up-1-rem: 1.1487rem;
 }
 
 html {
@@ -857,6 +860,12 @@ details {
 
 .widget-link .topic-link span {
   color: var(--tertiary);
+}
+
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
+.latest-topic-list-item.visited a.title:not(.badge-notification),
+.category-topic-link.visited a.title:not(.badge-notification) {
+  color: var(--title-link-color);
 }
 
 .topic-list-item.visited a.title:not(.badge-notification),
