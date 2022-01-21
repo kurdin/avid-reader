@@ -807,6 +807,7 @@ pre > code.hljs {
   .contents {
     .title {
       &:hover {
+        cursor: pointer;
         &:after {
           color: #ffb200;
         }

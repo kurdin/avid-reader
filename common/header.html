@@ -1,5 +1,8 @@
 <script type="text/discourse-plugin" version="0.8">
+     $(document).ready(function() {
+        $('.b-header .title').on('click', function(e) { $(e.target).find('a').click() });
+    });
     api.replaceIcon('link', 'avidreader-icon-link');
     api.replaceIcon('thumbtack', 'avidreader-icon-thumbtack');
     api.replaceIcon('reply', 'avidreader-icon-reply');
-  </script>
+</script>
