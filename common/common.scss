@@ -1061,9 +1061,17 @@ details {
   padding: 20px 5px;
   border-bottom: 1px solid #c2c2c2;
 }
+
 .topic-list-item.visited a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification) {
+  color: var(--tertiary);
+  font-size: 1em;
+}
+
+.topic-list-item a.title:not(.badge-notification),
+.latest-topic-list-item a.title:not(.badge-notification),
+.category-topic-link a.title:not(.badge-notification) {
   color: var(--tertiary);
   font-size: 1em;
 }
