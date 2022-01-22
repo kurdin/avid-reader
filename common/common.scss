@@ -1285,3 +1285,27 @@ h1#site-text-logo {
   // color: #d38800;
   color: #5e5e5e;
 }
+
+.latest-topic-list-item .topic-poster {
+  // position: relative;
+  width: auto;
+  margin-right: 6px;
+}
+
+.latest-topic-list-item .main-link {
+  line-height: 1.2;
+  flex: 0 1 auto;
+  max-width: 100%;
+  font-size: var(--font-0);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.topic-statuses .topic-status .d-icon {
+  height: 0.8em;
+  width: 0.8em;
+}
+
+.topic-poster svg.solved {
+  color: green;
+}
