@@ -1057,7 +1057,16 @@ tbody {
   width: 100px;
 }
 #main-outlet {
-  padding-top: 30px;
+  padding: 20px;
+}
+
+.d-header > .wrap {
+  width: calc(100% - 20px);
+  height: 100%;
+}
+
+.wrap {
+  padding: 0px 20px;
 }
 
 a.hashtag:hover span {
