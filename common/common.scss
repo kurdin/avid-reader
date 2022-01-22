@@ -1244,3 +1244,33 @@ html.whos-online-flair #user-card.user-online .user-card-avatar {
 #topic-title h1 a {
   color: var(--tertiary);
 }
+
+// General Discussions
+[data-category-id='9'] h3 .category-name {
+  color: #25aae2;
+}
+
+// SiteRemix Builder
+[data-category-id='7'] h3 .category-name {
+  color: #f7941d;
+}
+
+// RemixerJs Library
+[data-category-id='8'] h3 .category-name {
+  color: #02b69b;
+}
+
+// How-To
+[data-category-id='5'] h3 .category-name {
+  color: #3ab54a;
+}
+
+// Improve Your Website UX / UI
+[data-category-id='10'] h3 .category-name {
+  color: #f1592a;
+}
+
+// Admin Zone
+[data-category-id='3'] h3 .category-name {
+  color: #bf1e2e;
+}
