@@ -1318,3 +1318,18 @@ h1#site-text-logo {
 .topic-statuses svg.solved {
   color: green;
 }
+
+.archetype-private_message {
+  --border-radius: 1em;
+}
+
+.archetype-private_message .topic-map .participants .user {
+  padding: 4px 6px;
+  border-radius: var(--border-radius);
+}
+.archetype-private_message .topic-body .cooked {
+  margin-top: 0.75em;
+  margin-left: 0.75em;
+  padding: 1.5em 1.5em 0.5em 1.5em;
+  border-radius: 0 var(--border-radius) var(--border-radius) var(--border-radius);
+}
